@@ -4,7 +4,7 @@ import axios from "axios";
 export const locationsArray = JSON.parse(locations);
 
 export const getLocations = (query) => {
-  return locationsArray.filter(l => l.name.toLowerCase().includes(query));
+  return locationsArray.filter(l => l.name.toLowerCase().includes(query.toLowerCase()));
 }
 
 export const getWeatherShort = async (loc) => {

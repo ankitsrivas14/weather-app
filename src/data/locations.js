@@ -357,7 +357,7 @@ export default `[
     "name": "Mira-Bhayandar",
     "state": "Maharashtra",
     "lat": "19.295233",
-    "lon": "72.854390\\t"
+    "lon": "72.854390"
   },
   {
     "name": "Warangal",
