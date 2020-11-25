@@ -1,7 +1,12 @@
 import styled from "styled-components";
 
-export const ChartContainer = styled.div`
+export const Container = styled.div`
 
+`;
+
+export const ChartContainer = styled.div`
+  width: 100%;
+  height: 200px;
 `;
 
 export const StatsContainer = styled.div`
